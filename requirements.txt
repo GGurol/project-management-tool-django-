@@ -1,0 +1,7 @@
+# requirements.txt
+
+# Web Framework - Allows updates within the 5.2 series (e.g., 5.2.1, 5.2.2)
+Django~=5.2
+
+# Production-grade WSGI server (good practice to include for deployment)
+gunicorn
